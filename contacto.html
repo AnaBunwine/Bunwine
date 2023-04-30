@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body class="contacto">
+	<header>
+		<h1>Bunwine</h1>
+	<nav>
+		<ul>
+			<li><a href="index.html">Novedades</a></li>
+			<li><a href="index.html">Sobre mi</a></li>
+			<li><a href="index.html">Láminas</a></li>
+			<li><a href="index.html">Servicios</a></li>
+		</ul>	
+	</nav>
+	</header>
+	<div class="frase">	
+		<p>Contacta conmigo a través de este formulario, pídeme tu lámina, comentame cualquier idea de diseño o dime cualquier sugerencia.</p>
+	</div>
+		<form method="POST" action="#">
+			<div>
+				<input type="text" name="usuario" placeholder="nombre">
+				<input type="text" name="usuario" placeholder="apellidos">
+			</div>
+			<div>
+				<h4>Tamaño de la lámina y fecha límite</h4>	
+				<select name="Tamaño">
+				<option selected disabled>seleccione su tamaño</option>
+				<option value="1">A3</option>
+				<option value="2">A4</option>	
+				<option value="3">A5</option>
+				<option value="4">Otro</option>
+				<textarea name="x">Tres días, una semana, un mes...</textarea>
+			</div>
+			<div>
+				<h4>Observaciones</h4>
+				<textarea name="x">Escribe observaciones, preguntas, dudas...</textarea>
+			</div>
+			<div>
+				<button>Envíar</button>
+			</div>
+		</form>
+	<script src="js/funciones.js"></script>	
+	<footer>
+		<p>Todos los derechos reservados</p>
+	</footer>		
+</body>
+</html>
